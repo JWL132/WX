@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://45.40.241.33:3306/one_dime
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  type-aliases-package: com.exam.demo.POJO
+  mapper-locations: classpath:mapper/*Mapper.xml
